@@ -33,19 +33,14 @@ import Side from './Side'
 const About = () => {
   return (
     <div className="w-full px-4 sm:px-8 lg:px-16 py-10">
-      {/* Heading */}
       <h1 className="text-center text-[#00adb5] text-4xl sm:text-5xl font-bold mb-10">
         ✨ About Me
       </h1>
 
-      {/* Main layout */}
       <div className="flex flex-col md:flex-row items-start gap-10">
-        {/* Sidebar */}
         <div className="w-full md:w-2/3 flex justify-center">
           <Side />
         </div>
-
-        {/* Content */}
         <div className="w-full md:w-2/3 text-white font-medium text-lg sm:text-xl leading-relaxed">
           <p className="mb-6 text-justify">
             I am <span className="text-[#00adb5] font-semibold">Chaitanya Garg</span>, 
@@ -56,8 +51,6 @@ const About = () => {
             I am driven by curiosity, continuous learning, and a desire to grow as a developer while 
             making meaningful contributions to technology.
           </p>
-
-          {/* Skills */}
           <h2 className="text-[#00adb5] font-bold text-2xl sm:text-3xl mt-6 mb-4">
             SKILLS :
           </h2>
@@ -83,8 +76,6 @@ const About = () => {
               GitHub, VS Code, IntelliJ, Postman
             </li>
           </ul>
-
-          {/* Education */}
           <h2 className="text-[#00adb5] font-bold text-2xl sm:text-3xl mt-8 mb-4">
             EDUCATION :
           </h2>
