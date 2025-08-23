@@ -22,8 +22,8 @@ export default function Navbar() {
           </div>
           <div className="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start space-x-20">
             <div className="flex shrink-0 items-center">
-              <img alt="Your Company" src="/src/assets/logo.png" className="h-13 w-full"/>
-              <h1 className = 'text-white text-3xl font-medium m-4 leading-loose'>chaitanyaGarg.dev</h1>
+              <img alt="Your Company" src={`${import.meta.env.BASE_URL}img5.png`} className="h-13 w-full"/>
+              <h1 className = 'text-white text-3xl font-medium m-4 leading-loose'>chaitanya.dev</h1>
             </div>
           </div>
         </div>
