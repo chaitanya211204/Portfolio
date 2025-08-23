@@ -15,7 +15,7 @@ const Card = ({ title, description, imageUrl, demoLink }) => {
           }}
         />
       )}
-      <h3 className="text-2xl font-semibold mb-2">{title}</h3>
+      <h3 className="text-3xl font-bold mb-2 text-[#00adb5]">{title}</h3>
       <p className="text-base leading-relaxed">{description}</p>
 
       {demoLink && (
@@ -39,30 +39,27 @@ const VerticalCardsContainer = () => {
     {
       title: 'AccessPro',
       description:
-        'A Spring Boot and React-based HR management system with role-based access control, powered by a MySQL database.',
+        'A full-stack HR Management System designed to simplify and automate employee management processes within an organization. The application provides role-based access (Admin & Employee), ensuring secure and efficient handling of employee data, payroll, attendance, and project tracking.',
+      demoLink: "https://github.com/chaitanya211204/User-management-System"
     },
     {
       title: 'Weather App',
       description:
-        'A sleek weather app delivering accurate forecasts at your fingertips.Plan your day confidently with live updates and intuitive design.',
+        'A Weather Application that provides real-time weather updates for any city worldwide. The app integrates with an external weather API to fetch live data, including temperature, humidity, wind speed, and forecasts. Built with a modern frontend for seamless user experience, it ensures fast performance and accurate information delivery.',
       demoLink: 'https://chaitanya211204.github.io/TempCheck/',
     },
     {
       title: 'Calculator',
       description:
-        'A basic and scientific calculator built using html, css and JavaScript to perform mathematical and scientifc calculations.',
+        'A simple yet efficient Calculator application that performs basic arithmetic operations with an intuitive user interface. Built using modern frontend technologies, it ensures accurate calculations and a responsive layout for all screen sizes.',
       demoLink: 'https://chaitanya211204.github.io/Calculator/',
     },
     {
       title: 'Map Navigator',
       description:
         'An interactive campus navigation web application built with HTML, CSS, and JavaScript. "Map Navigator" helps users easily find their way around campus, locating key buildings and points of interest with a clean, user-friendly interface.',
-    },
-    {
-      title: 'Basic Chrome Extension',
-      description:
-        'A simple Chrome extension that greets the user with a "Hello!" message when clicked. It is a fun, lightweight tool designed to demonstrate basic extension functionality.',
-    },
+      demoLink: "https://github.com/chaitanya211204/MAP-NAVIGATOR",
+    }
   ];
 
   return (
@@ -73,7 +70,7 @@ const VerticalCardsContainer = () => {
           title={card.title}
           description={card.description}
           imageUrl={card.imageUrl}
-          demoLink={card.demoLink} // ✅ pass demoLink here
+          demoLink={card.demoLink}
         />
       ))}
     </div>

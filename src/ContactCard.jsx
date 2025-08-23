@@ -1,5 +1,6 @@
 import React from 'react';
 import { FaEnvelope, FaPhone, FaMapMarkerAlt, FaGithub, FaLinkedin, FaTwitter } from 'react-icons/fa';
+import { SiCodechef, SiLeetcode } from 'react-icons/si';
 
 const ContactCard = () => {
   return (
@@ -32,7 +33,26 @@ const ContactCard = () => {
             <p className="text-lg sm:text-xl">Haryana, India</p>
           </div>
         </div>
+
         <div className="mt-8 pt-6 border-t border-white/10 flex justify-center space-x-6">
+          <a
+            href="https://leetcode.com/u/Ch_garg2004/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-blue-300 hover:text-white transition-colors duration-200"
+            aria-label="Leetcode"
+          >
+            <SiLeetcode className="w-8 h-8 sm:w-10 sm:h-10" />
+          </a>
+          <a
+            href="https://www.codechef.com/users/chai_tanya21"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-blue-300 hover:text-white transition-colors duration-200"
+            aria-label="CodeChef"
+          >
+            <SiCodechef className="w-8 h-8 sm:w-10 sm:h-10" />
+          </a>
           <a
             href="https://github.com/chaitanya211204"
             target="_blank"
@@ -50,15 +70,6 @@ const ContactCard = () => {
             aria-label="LinkedIn"
           >
             <FaLinkedin className="w-8 h-8 sm:w-10 sm:h-10" />
-          </a>
-          <a
-            href="https://x.com/Chaitan93012831"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-blue-300 hover:text-white transition-colors duration-200"
-            aria-label="Twitter"
-          >
-            <FaTwitter className="w-8 h-8 sm:w-10 sm:h-10" />
           </a>
         </div>
       </div>
