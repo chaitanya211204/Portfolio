@@ -43,22 +43,16 @@ const VerticalCardsContainer = () => {
       demoLink: "https://github.com/chaitanya211204/User-management-System"
     },
     {
-      title: 'Weather App',
-      description:
-        'A Weather Application that provides real-time weather updates for any city worldwide. The app integrates with an external weather API to fetch live data, including temperature, humidity, wind speed, and forecasts. Built with a modern frontend for seamless user experience, it ensures fast performance and accurate information delivery.',
-      demoLink: 'https://chaitanya211204.github.io/TempCheck/',
-    },
-    {
-      title: 'Calculator',
-      description:
-        'A simple yet efficient Calculator application that performs basic arithmetic operations with an intuitive user interface. Built using modern frontend technologies, it ensures accurate calculations and a responsive layout for all screen sizes.',
-      demoLink: 'https://chaitanya211204.github.io/Calculator/',
-    },
-    {
       title: 'Map Navigator',
       description:
         'An interactive campus navigation web application built with HTML, CSS, and JavaScript. "Map Navigator" helps users easily find their way around campus, locating key buildings and points of interest with a clean, user-friendly interface.',
       demoLink: "https://github.com/chaitanya211204/MAP-NAVIGATOR",
+    },
+    {
+      title: 'Weather App',
+      description:
+        'A Weather Application that provides real-time weather updates for any city worldwide. The app integrates with an external weather API to fetch live data, including temperature, humidity, wind speed, and forecasts. Built with a modern frontend for seamless user experience, it ensures fast performance and accurate information delivery.',
+      demoLink: 'https://chaitanya211204.github.io/TempCheck/',
     }
   ];
 
