@@ -14,7 +14,7 @@ const About = () => {
         </div>
         <div className="w-full md:w-2/3 text-white font-medium text-lg sm:text-xl leading-relaxed">
           <p className="mb-6 text-justify">
-            I am <span className="text-[#00adb5] font-semibold">Chaitanya Garg</span>, 
+            Hello!,I am <span className="text-[#00adb5] font-semibold">Chaitanya Garg</span>, 
             a final-year undergraduate student with a strong foundation in software development, 
             data structures, and algorithms. I enjoy solving challenging problems and translating ideas 
             into impactful solutions that blend technical precision with creativity.
